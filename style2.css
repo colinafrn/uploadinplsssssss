@@ -1,0 +1,64 @@
+
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column; /* Stack items vertically */
+                height: 100vh; /* Full viewport height */
+                margin: 0;
+                font-family: 'Georgia', serif; /* Romantic font */
+                background-color: #fff0f5; /* Light pink background */
+                height: 100vh; /* Full screen height */
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-image: url('shoot.gif'); /* Replace 'background.jpg' with your image file name */
+                background-size: cover; /* Makes the image cover the entire screen */
+                background-position: center; /* Centers the image */
+                background-repeat: no-repeat; /* Prevents the image from repeating */
+            }
+            h1 {
+                font-size: 24px;
+                text-align: center;
+                color: #ff1493; /* Romantic pink heading */
+                margin-bottom: 20px; /* Space below the heading */
+            }
+            #container {
+                text-align: center; /* Center contents horizontally */
+                width: 100%; /* Take up full width to prevent overflow */
+            }
+            #open-button {
+                padding: 15px 30px;
+                font-size: 20px;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                background-color: #ff69b4; /* Soft pink button */
+                color: white;
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+                transition: background-color 0.3s ease, transform 0.3s ease;
+            }
+            #open-button:hover {
+                background-color: #ff1493; /* Bright pink hover effect */
+                transform: scale(1.05);
+            }
+            #letter {
+                font-size: 18px;
+                line-height: 1.8;
+                color: #333;
+                margin: 50px auto; /* Space around the letter */
+                padding: 25px;
+                padding-bottom: 100px;
+                max-width: 1000px;
+                border: 2px solid #ff69b4; /* Decorative pink border */
+                border-radius: 10px;
+                background-color: #fff; /* White background for the letter */
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for elegance */
+                opacity: 0; /* Initially hidden */
+                transform: translateY(50px); /* Initially offset downward */
+                transition: opacity 2s ease, transform 2s ease; /* Smooth reveal */
+                font-style: italic; /* Add a romantic touch */
+            }
+        
+            
+    
